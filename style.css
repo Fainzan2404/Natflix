@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+   
+    
+    width: 100%;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.904),rgba(255, 255, 255, 0));
+    
+}
+body{
+background: linear-gradient(180deg, rgb(56, 6, 6),rgb(0, 0, 0));
+}
+
+ .img img{
+    width: 170px;
+    height: 90px;
+  
+}
+
+.nav-font{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.598);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 70px;
+    color: aliceblue;
+    border: 1px rgba(255, 255, 255, 0.299) solid;
+    box-shadow: 7px 7px 30px  rgba(0, 0, 0, 0.721);
+    
+}
+.nav-login{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+.login{
+padding: 10px 30px ;
+background: transparent;
+font-weight: bold;
+border-style: none;
+border-radius: 30px;
+border: 1px rgba(255, 255, 255, 0.541) solid;
+color: aliceblue;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page1-img{
+    width: 1400px;
+    height: 500px;
+   border-radius: 20px;
+   background: url(/netflix/IN-en-20250414-TRIFECTA-perspective_0f1fb403-6efb-4223-8f10-cfd1a902f22c_small.jpg) no-repeat center ;
+   background-size: cover;
+   margin-top: 50px;
+   position: relative;
+
+   
+   
+   
+   
+
+   
+  
+   
+
+
+}
+.dark-page1{
+    width: 1400px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.447),rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.744),  rgba(255, 255, 255, 0.215));
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+  
+    
+
+}
+
+.page1-input-button input{
+    width: 250px;
+    padding: 10px 20px;
+   border-radius: 30px;
+   background: rgba(255, 255, 255, 0.395);
+   border-style: none;
+   border: 1px solid rgba(255, 255, 255, 0.616);
+   
+}
+.page1-input-button button{
+    width: 150px;
+padding: 10px 10px ;
+background-color: red;
+color: aliceblue;
+border-radius: 30px;
+font-weight: bold;
+border-style: none;
+border: 1px solid rgba(255, 255, 255, 0.605);
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+
+.page2-img-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.image{
+width: 150px;
+height: 250px;
+
+}
+
+#img1{
+    background: url(/netflix/AAAABRle22NBlr0-IcROZhzASPWgK_S2e-WAG5jx-Jcp_kzDmdK39dWulrS9eo2KBNYGmVxmKCh2voDOVZo3W9C2d5byh5ezBwfQpE33HkvxiAsQfalj2h-UONU46-SthdlEAlQ3rhcEYmynsJe8Kaca9O\ \(1\).webp) no-repeat center;
+    background-size: cover;
+}
+#img2{
+    background: url(/netflix/AAAABacrCXMLlWnxdiRot_1CVyGD6wgDHKQ_Un4rWHti1kyYn7viDTwwAOgAiHQsjGPcJAG03oWbZQial66ECMr2QcsKy2bSmUTsKuUPqMvvUYdlk3rjCvrAoCLVzMDERFsoYammxSBZxvG_5E5IMvUov4Qd_e.webp) no-repeat center;
+    background-size: cover;
+}
+#img3{
+    background: url(/netflix/AAAABaXp51GeqmxqBq5ors3pR1YbCvPrYSRlEzf_uBel_vEYF0PABMM2cDJy9kUO1SnM9s3EJVYaAbamh2cXCWf8p38osPWcXYFKwSS0e7ADVm94ZbEuKXXZL0VF09Th9zm9hFAEQe5M2MhG2hA3ycdAoHFaro.webp ) no-repeat center;
+    background-size: cover;
+}
+#img4{
+    background: url(/netflix/AAAABQpaDU-SOnBtZBW1AcC1lsYvREIr7p1E0-HJl9cOBwIlrU9a7qiLuSpzxjy9ncNOgArTnUHzTE1dDq5-OOvVMlcSrDmmUOUNrwz44dAy1tZyne3C4SaySU1JplezYDyr0FED8PoHAOrqtyHdwX0u.webp) no-repeat center;
+    background-size: cover;
+}
+#img5{
+    background: url(/netflix/AAAABRle22NBlr0-IcROZhzASPWgK_S2e-WAG5jx-Jcp_kzDmdK39dWulrS9eo2KBNYGmVxmKCh2voDOVZo3W9C2d5byh5ezBwfQpE33HkvxiAsQfalj2h-UONU46-SthdlEAlQ3rhcEYmynsJe8Kaca9O\ \(1\).webp) no-repeat center;
+    background-size: cover;
+}
+#img6{
+    background: url(/netflix/AAAABVbt3iTO02SKgalhjz1TKcUFfwgBoiSyMi4OrGZs5r7eJAa7bt0bIdlJ9RavE5-mhwKQeMVC9RtkfJ3bPN8JuUfkhnlnA2vvt-1PGfOeKwQwDy8GmRq4u6ZnyhNc74M1OwRIufnJPsYNH5bx2ZD_.webp) no-repeat center;
+    background-size: cover;
+}
+
+.page2-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 30px;
+    border: 1px black solid;
+ padding: 50px;
+ color: rgb(206, 206, 206);
+ background: linear-gradient(-45deg, rgb(118, 6, 203), rgb(65, 11, 146), rgb(40, 13, 132));
+    
+}
+
+.page3-font-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.page3-box{
+    padding: 20px;
+    width: 270px;
+    height: 200px;
+    background-color:  rgba(65, 65, 65, 0.523);
+    color: rgb(205, 204, 204);
+    border: 1px black solid;
+    border-radius: 30px;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    
+
+}
+
+.page3-doubt-box{
+    width: 1350px;
+    padding: 20px;
+    background-color: rgba(65, 65, 65, 0.523);
+    border-radius: 20px;
+    border: 0.5px solid rgba(234, 234, 234, 0.459);
+    margin-left: 60px;
+    margin-top: 20px;
+    color: aliceblue;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+
+
+.center-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-inp-btn-font{
+    color: aliceblue;
+    padding: 40px;
+}
+.inp-btn{
+    margin-top: 10px;
+}
+.inp-btn input{
+padding: 15px 30px;
+width: 300px;
+border-radius: 30px;
+border-style: none;
+background: rgba(65, 65, 65, 0.523);
+color: white;
+border: 1px rgba(255, 255, 255, 0.5) solid;
+font-weight: bold;
+}
+.inp-btn button{
+    padding: 15px 30px ;
+    background-color: rgb(156, 3, 3);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 30px;
+    border-style: none;
+    border: 1px white solid;
+}
+
+.inp-btn button:hover{
+    background-color: rgb(106, 7, 7);
+}
+
+.link-font-down{
+    display: flex;
+    gap: 200px;
+    padding: 50px;
+    
+}
+.down-lang{
+    padding: 10px 20px ;
+  
+    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.468);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 0px 50px 50px;
+    color: rgba(240, 248, 255, 0.751);
+    background: transparent;
+}
